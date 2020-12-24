@@ -25,9 +25,8 @@ function Login() {
     <div className="login">
       <div className="login__container">
         <div className="login__text">
-          <h1>ML-Messages</h1>
+          <h1>MLH-Messenger</h1>
         </div>
-
         <Button onClick={signIn}>
           <MailOutlineIcon className="mailIconLogin" />
           Google Sign-In

@@ -23,12 +23,12 @@
   .login__container > button {
     margin-top: 25px;
     text-transform: inherit !important;
-    border: 2px solid #c4403c !important;
+    border: 2px solid tomato !important;
     color: rgb(0, 0, 0);
-    color: #c4403c;
+    color: tomato;
   }
   
   .mailIconLogin {
-    color: rgb(206, 82, 82);
+    color: tomato;
     margin-right: 5px;
   }
