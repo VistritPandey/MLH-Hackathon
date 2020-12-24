@@ -32,12 +32,7 @@ function Sidebar() {
         <Avatar src={user?.photoURL} />
         <div className="sidebar__headerRight">
           <IconButton>
-            <a
-              href="https://aqueous-plains-97236.herokuapp.com/"
-              target="_blank"
-            >
-              <VoiceChatIcon />
-            </a>
+            <VoiceChatIcon />
           </IconButton>
         </div>
       </div>

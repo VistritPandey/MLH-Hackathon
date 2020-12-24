@@ -7,6 +7,7 @@ import {
   Mic,
   MoreVert,
   SearchOutlined,
+  VoiceChat,
 } from "@material-ui/icons";
 import { useParams } from "react-router-dom";
 import db from "./firebase";
@@ -73,7 +74,12 @@ function Chat() {
             <SearchOutlined />
           </IconButton>
           <IconButton>
-            <AttachFile />
+            <a
+              href="https://aqueous-plains-97236.herokuapp.com/"
+              target="_blank"
+            >
+              <VoiceChat />
+            </a>
           </IconButton>
           <IconButton>
             <MoreVert />
