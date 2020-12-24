@@ -27,11 +27,11 @@
 
 .chat__body{
     flex: 1;
-    background-image: url("https://www.xmple.com/wallpaper/plain-one-colour-cyan-single-solid-color-1920x1080-c-def2ee-f-24.svg");
+    background-color: whitesmoke;
     background-repeat: repeat;
     background-position: center;
     padding: 30px;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 .chat__message {
@@ -46,7 +46,7 @@
 
 .chat__receiver {
     margin-left: auto;
-    background-color: lightskyblue;
+    background-color: rgb(194, 230, 253);
 }
 
 .chat__timestamp{
@@ -79,6 +79,7 @@
     border-radius: 30px;
     padding: 10px;
     border: none;
+    outline-width: 0;
 }
 
 
