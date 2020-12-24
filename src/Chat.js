@@ -13,7 +13,6 @@ import { useParams } from "react-router-dom";
 import db from "./firebase";
 import firebase from "firebase";
 import { useStateValue } from "./StateProvider";
-import Picker from "emoji-picker-react";
 
 function Chat() {
   const [seed, setSeed] = useState("");
@@ -103,7 +102,6 @@ function Chat() {
         ))}
       </div>
       <div className="chat__footer">
-        <InsertEmoticon />
         <form>
           <input
             type="text"
@@ -112,10 +110,10 @@ function Chat() {
             onChange={(e) => setInput(e.target.value)}
           />
           <button type="submit" onClick={sendMessage}>
-            Type a message
+            Send a message
           </button>
         </form>
-        <Mic />
+        <InsertEmoticon />
       </div>
     </div>
   );

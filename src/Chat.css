@@ -27,7 +27,7 @@
 
 .chat__body{
     flex: 1;
-    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    background-image: url("https://www.xmple.com/wallpaper/plain-one-colour-cyan-single-solid-color-1920x1080-c-def2ee-f-24.svg");
     background-repeat: repeat;
     background-position: center;
     padding: 30px;
@@ -46,7 +46,7 @@
 
 .chat__receiver {
     margin-left: auto;
-    background-color: #dcf8c6;
+    background-color: lightskyblue;
 }
 
 .chat__timestamp{
