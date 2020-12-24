@@ -52,7 +52,6 @@ function Chat() {
     db.collection("rooms").doc(roomId).collection("messages").add({
       message: input,
       name: user.displayName,
-      photoUrl: user.photoUrl,
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
     });
     setInput("");
