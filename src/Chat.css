@@ -91,3 +91,9 @@
     padding: 10px;
     color: gray;
 }
+
+.chat__avatar {
+    display: flex;
+    height: 10px;
+    padding-right: 10px;
+}

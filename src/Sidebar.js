@@ -1,5 +1,4 @@
 import { Avatar, IconButton } from "@material-ui/core";
-import GroupAddIcon from "@material-ui/icons/GroupAdd";
 import React, { useEffect, useState } from "react";
 import "./Sidebar.css";
 import { SearchOutlined } from "@material-ui/icons";
