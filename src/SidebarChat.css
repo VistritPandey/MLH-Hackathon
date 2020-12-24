@@ -22,3 +22,8 @@ a{
     text-decoration: none !important;
     color: black;
 }
+
+.addicon{
+    height: 10px;
+    width: fit-content;
+}
